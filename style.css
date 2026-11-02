@@ -1,15 +1,45 @@
+
 body {
- background-color: #f1f5f9;
- font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 h2 {
- font-weight: bold;
+    font-weight: bold;
+    color: #1e293b;
 }
+
 .card {
- border: none;
- border-radius: 10px;
- box-shadow: 0 2px 8px #cccccc;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+    background-color: #ffffff;
+    padding: 20px;
 }
+
 .table {
- background-color: white;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #1e40af;
+    color: white;
+}
+
+.table td,
+.table th {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.form-control {
+    border-radius: 6px;
+}
+
+.btn {
+    border-radius: 6px;
 }
