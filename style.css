@@ -1,0 +1,15 @@
+body {
+ background-color: #f1f5f9;
+ font-family: Arial, sans-serif;
+}
+h2 {
+ font-weight: bold;
+}
+.card {
+ border: none;
+ border-radius: 10px;
+ box-shadow: 0 2px 8px #cccccc;
+}
+.table {
+ background-color: white;
+}
